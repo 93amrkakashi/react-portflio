@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0af738b6.css",
+    "main.js": "/static/js/main.b58eca07.js",
+    "static/media/01.png": "/static/media/01.e97edd4b97831f17cf3e.png",
+    "static/media/02.png": "/static/media/02.adfe8140e912b57ad3d6.png",
+    "static/media/ropo-reading.png": "/static/media/ropo-reading.6a0dd22b2109421d3799.png",
+    "index.html": "/index.html",
+    "main.0af738b6.css.map": "/static/css/main.0af738b6.css.map",
+    "main.b58eca07.js.map": "/static/js/main.b58eca07.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0af738b6.css",
+    "static/js/main.b58eca07.js"
+  ]
+}
