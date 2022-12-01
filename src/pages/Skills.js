@@ -10,8 +10,6 @@ import img from '../pics/02.png'
 
 
 const Skills = () => {
-  // const section = document.querySelector(".skills");
-// const spans = document.querySelectorAll(".progress span");
 
   return (
     <>

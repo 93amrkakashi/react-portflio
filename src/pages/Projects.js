@@ -9,7 +9,9 @@ const Projects = () => {
   return (
     <>
       <Navbar />
-
+      <div className="main-title">
+          <h2>MY PROJECTS</h2>
+        </div>
       <div className="repos">
         <Repo />
       </div>

@@ -1,8 +1,25 @@
 import React from "react";
-import "../style.scss"
+import "../style.scss";
 import { NavLink } from "react-router-dom";
+// import { useState } from "react";
+import { useRef } from "react";
+
 
 const Navbar = () => {
+  const navRef = useRef();
+
+	const showNavbar = () => {
+		navRef.current.classList.toggle("mobile");
+	};
+
+  // const [mobile, setmobile] = useState(false);
+  // const toggleClass = () => {
+  //   setmobile(true);
+  // };
+
+
+
+  
   return (
     <>
       <div className="nav">
@@ -11,7 +28,10 @@ const Navbar = () => {
             <NavLink to="/">amr muzashi</NavLink>
           </h2>
         </div>
-        <ul className="links">
+        <i onClick={showNavbar} id="menu"
+          class="menu fa-solid fa-bars"
+        ></i>
+        <ul ref={navRef} className="links">
           <li>
             <NavLink to="/">home</NavLink>
           </li>

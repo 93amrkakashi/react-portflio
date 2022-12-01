@@ -1,4 +1,3 @@
-
 .home-sec {
   height: calc(100vh - 60px);
   background-color: rgb(17, 19, 19);
@@ -8,35 +7,63 @@
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
+  margin-top: 60px;
 }
 
-.left{
+.left {
   margin-left: 50px;
   width: 60%;
-  h2 , h3 , h4{
+  h2,
+  h3,
+  h4 {
     text-transform: capitalize;
     margin: 10px 10px;
     font-size: 36px;
   }
-  h3{
+  h3 {
     font-size: 30px;
   }
-  h4{
+  h4 {
     font-size: 25px;
   }
-  h3 .name{
+  h3 .name {
     color: #2d67f7;
   }
 }
 // @import url(./pics/02.png);
-.right{
+.right {
   background-image: ("../pics/ropo-reading.png");
   background-position: center;
   background-size: cover;
-  margin-right: -172px;
-  img{
+  margin-right: -500px;
+  animation-name: robo;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+  img {
     height: 90%;
-    width: 60%;
+    width: 400px;
     transform: scaleX(-1);
+    transition: all 0.8s;
+  }
+}
+
+img:hover {
+  margin-right: -120px;
+}
+
+@keyframes robo {
+  0% {
+    margin-right: -500px;
+  }
+  50% {
+    margin-right: -160px;
+  }
+  50% {
+    margin-right: -500px;
+  }
+  100% {
+    margin-right: -120px;
   }
 }
