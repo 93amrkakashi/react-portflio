@@ -1,0 +1,42 @@
+
+.home-sec {
+  height: calc(100vh - 60px);
+  background-color: rgb(17, 19, 19);
+  color: rgb(255, 255, 255);
+  // background-image: "../pics/01.png";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.left{
+  margin-left: 50px;
+  width: 60%;
+  h2 , h3 , h4{
+    text-transform: capitalize;
+    margin: 10px 10px;
+    font-size: 36px;
+  }
+  h3{
+    font-size: 30px;
+  }
+  h4{
+    font-size: 25px;
+  }
+  h3 .name{
+    color: #2d67f7;
+  }
+}
+// @import url(./pics/02.png);
+.right{
+  background-image: ("../pics/ropo-reading.png");
+  background-position: center;
+  background-size: cover;
+  margin-right: -172px;
+  img{
+    height: 90%;
+    width: 60%;
+    transform: scaleX(-1);
+  }
+}
