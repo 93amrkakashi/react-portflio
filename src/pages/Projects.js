@@ -13,7 +13,7 @@ const Projects = () => {
           <h2>MY PROJECTS</h2>
         </div>
       <div className="repos">
-        <Repo />
+        <Repo  />
       </div>
       <Footer />
     </>
