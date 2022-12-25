@@ -4,22 +4,18 @@ import { NavLink } from "react-router-dom";
 // import { useState } from "react";
 import { useRef } from "react";
 
-
 const Navbar = () => {
   const navRef = useRef();
 
-	const showNavbar = () => {
-		navRef.current.classList.toggle("mobile");
-	};
+  const showNavbar = () => {
+    navRef.current.classList.toggle("mobile");
+  };
 
   // const [mobile, setmobile] = useState(false);
   // const toggleClass = () => {
   //   setmobile(true);
   // };
 
-
-
-  
   return (
     <>
       <div className="nav">
@@ -28,9 +24,7 @@ const Navbar = () => {
             <NavLink to="/">amr muzashi</NavLink>
           </h2>
         </div>
-        <i onClick={showNavbar} id="menu"
-          class="menu fa-solid fa-bars"
-        ></i>
+        <i onClick={showNavbar} id="menu" class="menu fa-solid fa-bars"></i>
         <ul ref={navRef} className="links">
           <li>
             <NavLink to="/">home</NavLink>
